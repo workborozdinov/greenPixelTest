@@ -1,0 +1,81 @@
+[
+    {
+        "prefabName": "Ring",
+        "position": { "x": 460, "y": -225, "z": 0 },
+
+        "info": {
+            "initAngle": -90,
+            "unlockAudioName": "unlock",
+            "blockingAudioName": "conflict",
+            "spriteFrameName": "ring_blue/spriteFrame"
+        }
+    },
+    {
+        "prefabName": "Ring",
+        "position": { "x": 0, "y": -225, "z": 0 },
+
+        "info": {
+            "initAngle": 180,
+            "unlockAudioName": "unlock",
+            "blockingAudioName": "conflict",
+            "spriteFrameName": "ring_red/spriteFrame"
+        }
+    },
+    {
+        "prefabName": "Ring",
+        "position": { "x": -460, "y": -225, "z": 0 },
+
+        "info": {
+            "initAngle": 90,
+            "unlockAudioName": "unlock",
+            "blockingAudioName": "conflict",
+            "spriteFrameName": "ring_green/spriteFrame"
+        }
+    },
+    {
+        "prefabName": "Ring",
+        "position": { "x": -230, "y": 170, "z": 0 },
+
+        "info": {
+            "arrayAnglesSingleBlockers": [270, 210],
+            "initAngle": 30,
+            "unlockAudioName": "unlock",
+            "blockingAudioName": "conflict",
+            "spriteFrameName": "ring_yellow/spriteFrame",
+            "singleBlockersPrefabName": "SingleBlocker",
+            "singleBlockerSpriteFrame": "single_blocker_yellow/spriteFrame"
+        }
+    },
+    {
+        "prefabName": "Ring",
+        "position": { "x": 230, "y": 170, "z": 0 },
+
+        "info": {
+            "arrayAnglesSingleBlockers": [330, 270],
+            "initAngle": -30,
+            "unlockAudioName": "unlock",
+            "blockingAudioName": "conflict",
+            "spriteFrameName": "ring_pink/spriteFrame",
+            "singleBlockersPrefabName": "SingleBlocker",
+            "singleBlockerSpriteFrame": "single_blocker_pink/spriteFrame"
+        }
+    },
+    {
+        "prefabName": "Blocker",
+        "position": { "x": -230, "y": -225, "z": 0 },
+
+        "info": {
+            "unlockAudioName": "unlock",
+            "spriteFrameName": "blocker_pink/spriteFrame"
+        }
+    },
+    {
+        "prefabName": "Blocker",
+        "position": { "x": 230, "y": -225, "z": 0 },
+
+        "info": {
+            "unlockAudioName": "unlock",
+            "spriteFrameName": "blocker_yellow/spriteFrame"
+        }
+    }
+]

@@ -1,0 +1,39 @@
+{
+  "__version__": "1.0.5",
+  "general": {
+    "designResolution": {
+      "width": 1882,
+      "height": 3346,
+      "fitHeight": true,
+      "fitWidth": true
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "RING"
+      },
+      {
+        "index": 2,
+        "name": "BLOCKER"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 4,
+      "2": 6
+    }
+  },
+  "layer": [
+    {
+      "name": "UI_2D_LOWER",
+      "value": 1
+    },
+    {
+      "name": "UI_2D_UPPER",
+      "value": 2
+    }
+  ]
+}
